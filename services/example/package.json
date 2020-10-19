@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example for serverless graphql backend with apollo",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-lambda": "^2.18.2",
+    "graphql": "^15.3.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.773.0",
+    "serverless-bundle": "^3.2.1",
+    "serverless-dotenv-plugin": "^3.1.0"
+  },
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "author": "async ou",
+  "license": "ISC"
+}
