@@ -49,8 +49,8 @@ const typeDefs = gql`
       id: String!
     ): Item
   }
-`
+`;
 
 module.exports = {
   typeDefs
-}
+};
